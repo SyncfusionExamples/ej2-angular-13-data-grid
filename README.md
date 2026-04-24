@@ -1,27 +1,54 @@
-# GridSample
+# EJ2 Angular 13 Data Grid Examples
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+## Repository Description
 
-## Development server
+This repository contains a working Angular application that demonstrates the usage of the Syncfusion Essential JS 2 (EJ2) Data Grid component with practical configuration and data-binding examples.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+The project is intended to help developers understand how to integrate and configure the Syncfusion EJ2 Data Grid within an Angular environment. It showcases common grid scenarios such as rendering tabular data, applying basic grid features, and working with Syncfusion’s Angular components in a real application setup.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The sample serves as a reference implementation for learning and experimentation, making it easier to adopt EJ2 Grid features in enterprise or production-ready Angular projects.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 13
+- Syncfusion Essential JS 2 Angular Components
+- TypeScript
+- Node.js and npm
 
-## Running unit tests
+## Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before running this project, ensure you have the following installed:
+- Node.js (LTS version recommended)
+- Angular CLI compatible with Angular 13
 
-## Running end-to-end tests
+## Running the Application
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository:
 
-## Further help
+```cmd
+git clone https://github.com/SyncfusionExamples/ej2-angular-13-data-grid
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Navigate to the project folder:
+
+```cmd
+cd ej2-angular-13-data-grid
+```
+
+3. Install dependencies:
+
+```cmd
+npm install
+```
+
+3. Start the development server:
+
+```cmd
+npm run serve
+```
+
+## Resources
+- Demo: https://ej2.syncfusion.com/angular/demos/#/tailwind3/grid/over-view
+- Documentation: https://ej2.syncfusion.com/angular/documentation/grid/getting-started
