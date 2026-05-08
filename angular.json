@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "grid-sample:build:production"
+              "buildTarget": "grid-sample:build:production"
             },
             "development": {
-              "browserTarget": "grid-sample:build:development"
+              "buildTarget": "grid-sample:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "grid-sample:build"
+            "buildTarget": "grid-sample:build"
           }
         },
         "test": {
@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "grid-sample"
+  "defaultProject": "grid-sample",
+  "cli": {
+    "analytics": "f24c984b-c8c3-4e1a-9ddf-8a04de74278b"
+  }
 }
